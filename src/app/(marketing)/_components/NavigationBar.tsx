@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import {
   Navbar,
   NavbarBrand,
@@ -20,7 +20,7 @@ const navigationItems = [
 ];
 
 function NavigationBar() {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <Navbar position="static">
@@ -43,7 +43,7 @@ function NavigationBar() {
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
-          <Link href="login">Login</Link>
+          <Link href="app">Login</Link>
         </NavbarItem>
         <NavbarItem>
           <Button as={Link} color="primary" href="#" variant="flat">

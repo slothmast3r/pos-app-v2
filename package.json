@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/prisma-adapter": "^2.0.0",
     "@nextui-org/button": "^2.0.31",
     "@nextui-org/card": "^2.0.28",
     "@nextui-org/input": "^2.1.21",
@@ -16,6 +17,7 @@
     "@nextui-org/navbar": "^2.0.30",
     "@nextui-org/system": "^2.1.2",
     "@nextui-org/theme": "^2.2.3",
+    "@prisma/client": "^5.13.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.1.9",
